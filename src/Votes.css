@@ -1,0 +1,53 @@
+.votes {
+    margin-top: 20px;
+    font-family: 'Caveat', cursive;
+}
+  
+.votes .vote-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.votes .flavor {
+    font-size: 18px;
+    color: #000;
+}
+  
+  .votes .vote-count {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px; 
+}
+  
+.votes .percentage {
+    font-size: 12px;
+    color: #000;
+}
+
+.votes button {
+    background-color: #0e3c7e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+  
+.votes button:hover {
+    background-color: #1e60a9;
+}
+  
+.votes button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.votes .graph-bar {
+    height: 10px;
+    background-color: #0e3c7e;
+}
+  

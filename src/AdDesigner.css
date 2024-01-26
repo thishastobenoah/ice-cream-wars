@@ -1,0 +1,28 @@
+.ad-designer {
+    background-color: #fff;
+    border: 1px solid #222;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ad {
+    font-size: 16px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .light-theme {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .dark-theme {
+    background-color: #222;
+    color: #fff;
+  }
+  
